@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: sakisplus
- * Date: 22/1/18
- * Time: 19:42
+ * Copyright © 2018 gladd. All rights reserved.
  */
 
 namespace Gladd\Demo\Setup;
@@ -583,5 +580,7 @@ class InstallSchema implements InstallSchemaInterface
             ->setComment('Demo EAV Attribute Table');
         $installer->getConnection()
             ->createTable($table);
+
+        $installer->endSetup();
     }
 }

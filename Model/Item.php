@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright © 2017 gladd. All rights reserved.
+ * Copyright © 2018 gladd. All rights reserved.
  */
 
 namespace Gladd\Demo\Model;
